@@ -4,6 +4,10 @@ body {
 }
 a {
     text-decoration: none;
+    color: #2eacff;
+}
+a:hover {
+    color: #164c74;
 }
 .tb_sites {
     width: 100%;

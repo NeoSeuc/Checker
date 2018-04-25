@@ -30,7 +30,7 @@ while ($row = $result->fetch()) {
 
             file_get_contents($request_url);
 
-            sleep(0.02);
+            //sleep(0.02);
         }
 
     }
