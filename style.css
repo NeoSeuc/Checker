@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Jura:700');
+body {
+    font-family: 'Jura', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.tb_sites {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+.tb_sites td {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid black;
+}
+.tb_sites th {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #2eacff;
+}
+.add_site {
+
+    margin: 10px 0;
+}
+.add_site input {
+    padding: 10px;
+}
+.add_site input:first-child {
+
+    width: 80%;
+}
+
+.add_site input:last-child {
+    background-color: #2eacff;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #2eacff;
+    border-radius: 0 10px 10px 0;
+    width: 15%;
+    transition: 1s all;
+}
+.add_site input:last-child:hover {
+    cursor: pointer;
+    background-color: #164c74;
+    transition: 1s all;
+}
+
+.work {
+    color: #00ff00;
+}
+
+.d_work {
+    color: red;
+}
+
