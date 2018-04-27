@@ -1,7 +1,7 @@
 <?php
-function getAllChatId()
+function getAllChatId($token)
 {
-    $url = "https://api.telegram.org/bot582955940:AAHvxZ41AhxvdV2mUQo5BVohm7wLOKPaZf0/getUpdates";
+    $url = "https://api.telegram.org/bot".$token."/getUpdates";
     $data = file_get_contents($url) . " ";
     $pattern = "/\"id\":[0-9]{9}/";
     preg_match_all($pattern, $data, $array);

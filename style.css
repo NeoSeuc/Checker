@@ -38,9 +38,12 @@ a:hover {
 }
 .add_site input:first-child {
 
-    width: 80%;
+    width: 20%;
 }
+.add_site input:nth-child(2) {
 
+    width: 46%;
+}
 .add_site input:last-child {
     background-color: #2eacff;
     color: white;
@@ -64,3 +67,6 @@ a:hover {
     color: red;
 }
 
+bn {
+    color:#2eacff;
+}
