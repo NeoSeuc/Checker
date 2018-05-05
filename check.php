@@ -5,7 +5,7 @@ require_once('change.php');
 $token = "";
 $db = Db::getConnection();
 $tmToken = $db->query("SELECT token FROM sites")->fetch()['token'];
-$msg = " не работает!";
+$msg = " всьо работает";
 $users = getAllChatId($tmToken);
 $request_param = [
     'chat_id' => 448169853,
